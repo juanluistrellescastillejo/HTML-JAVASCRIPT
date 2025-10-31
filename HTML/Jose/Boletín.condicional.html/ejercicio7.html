@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: aquamarine;
+        text-align: center;
+        font-family: monospace;
+        font-weight: bold;
+        color: darkblue;
+        font-size: 50px;
+    }
+</style>
+
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+<script>
+let nombre = prompt("Nombre del postulante:")
+let cantidad = parseInt(prompt("Número de preguntas"))
+let correctas = parseInt(prompt("De las cuales acertadas:"))
+let porcentaje = correctas/cantidad*100
+switch (true) {
+    case porcentaje>=90:
+        document.write(nombre+ " tiene un nivel superior")
+        break;
+    case porcentaje>=75:
+        document.write(nombre+ " tiene un nivel medio")
+        break;
+    case porcentaje>=50:
+        document.write(nombre+ " tiene un nivel regular")
+        break;
+    case porcentaje<50:
+        document.write(nombre+ "está fuera de nivel")
+        break;
+    default:
+        document.write("Datos mal introducidos")
+
+        break;
+}
+
+
+
+
+</script>
+
+</html>

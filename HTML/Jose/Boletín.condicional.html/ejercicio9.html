@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: aquamarine;
+        text-align: center;
+        font-family: monospace;
+        font-weight: bold;
+        color: darkblue;
+        font-size: 50px;
+    }
+</style>
+
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+<script>
+let opción=prompt("Elige:A=Abrir archivo, G=Guardar archivo, S=Salir del programa")
+
+switch (opción) {
+    case "A":
+        document.write("Abriendo archivo...")
+        break;
+    case "G":
+        document.write("Guardando archivo...")
+        break;
+    case "S":
+        document.write("Saliendo del programa...")
+        break;
+    default:        
+    document.write("Opción no reconocida")
+        break;
+}
+</script>
+
+</html>

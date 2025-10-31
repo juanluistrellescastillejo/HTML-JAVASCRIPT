@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: aquamarine;
+        color: rgb(12, 19, 121);
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    table {
+        border-collapse: collapse;
+        border: 1px solid rgb(104, 104, 104);
+        padding: 8px;
+        color: black;
+    }
+
+    td,
+    th {
+        border: none;
+        padding: 8px;
+
+    }
+
+    .tablauno {
+        background-color: rgb(202, 201, 201);
+    }
+
+    .tablados {
+        background-color: rgb(236, 202, 138);
+    }
+
+    .tablatres {
+        background-color: rgb(179, 118, 102);
+    }
+
+    .datospers {
+        background-color: white;
+        position: absolute;
+        top: 90px;
+        left: 20px;
+        font-size: 10px;
+        padding: 1px;
+    }
+
+    .tdtd,
+    .trtr {
+        padding: 1px;
+    }
+
+    .formacc {
+        background-color: white;
+        position: absolute;
+        top: 294px;
+        left: 20px;
+        font-size: 10px;
+        padding: 1px;
+    }
+
+    .tdtdtd,
+    .trtrtr {
+        padding: 1px;
+    }
+
+    .docadj {
+        background-color: white;
+        position: absolute;
+        top: 502px;
+        left: 20px;
+        font-size: 10px;
+        padding: 1px;
+    }
+
+    .tdtdtdtd,
+    .trtrtrtr {
+        padding: 1px;
+    }
+</style>
+
+<body>
+    <h1>HOJA DE <del>INSCRIPCIÓN</del><ins>INSCRIPTION</ins> EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
+    <form>
+        <table class="datospers">
+            <tr class="trtr">
+                <td class="tdtd">Datos Personales</td>
+            </tr>
+        </table>
+        <table class="tablauno">
+            <tr>
+                <br>
+                <td>
+                     Nombre: <br> <input disabled="text" value="Juan Luis">
+                </td>
+                <td>
+                    Apellidos: <br> <input type="text" value="Trelles">
+                </td>
+                <td>
+                    DNI <br> <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Localidad de nacimiento <br> <input readonly="text">
+                </td>
+                <td>
+                    Provincia: <br> <select>
+                        <option>Huelva</option>
+                    </select>
+                </td>
+                <td>
+                    Fecha de nacimiento: <br> <input type="date" placeholder="date">
+                </td>
+                 <td>
+                    Range: <br> <input type="Range">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Dirección <br> <input type="text" size="46">
+                </td>
+                <td>
+                    Código postal: <br> <input type="text">
+                </td>
+                 <td>
+                    week <br> <input type="week">
+                </td>
+
+            </tr>
+        </table>
+        <br>
+        <br>
+    
+
+
+
+
+
+    <table class="formacc">
+        <tr class="trtrtr">
+            <td class="tdtdtd">Forma de Acceso</td>
+        </tr>
+    </table>
+    <table class="tablados">
+        
+            <tr>
+                <td>
+                    
+                    <ol>
+                        <ul>
+                            <input type="radio" name="Bachillerato"> Cupo 1 (Bachillerato) <br>
+                            <ul><input type="radio" name="Bachillerato">Bachillerato relacionado</ul>
+                            <ul><input type="radio" name="Bachillerato">Bachillerato no relacionado</ul>
+                            <ul><input type="radio" name="Bachillerato">Otros (Especifique) <input type="text"></ul>
+                        </ul>
+                        <ul>
+                            <input type="radio" name="Bachillerato">Cupo 2 (Técnico)
+                        </ul>
+                        <ul>
+                            <input type="radio" name="Bachillerato">Cupo 3 (Prueba de Acceso)
+                        </ul>
+
+                    </ol>
+                </td>
+            </tr>
+        
+    </table>
+    <br><br>
+    <table class="docadj">
+        <tr class="trtrtrtr">
+            <td class="tdtdtdtd">Documentos Adjuntados</td>
+        </tr>
+    </table>
+    <table class="tablatres">
+       
+            <tr>
+                <td>
+                    <input type="checkbox" checked="checked"> Fotocopia DNI
+                </td>
+                <td>
+                    <input type="checkbox"> Certificado académico
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox"> Otros documentos (Especifique) <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="file">
+                </td>
+            </tr>
+        
+    </table>
+    <br>
+
+    <input type="submit" value="Enviar solicitud">
+    <input type="reset" value="Borrar">
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
