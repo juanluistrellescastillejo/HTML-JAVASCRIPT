@@ -1,5 +1,0 @@
-Fila 38 Disabled
-Fila 39 Readonly
-Fila 59 Placeholder
-Fila 42 Range
-Fila 43 Week
