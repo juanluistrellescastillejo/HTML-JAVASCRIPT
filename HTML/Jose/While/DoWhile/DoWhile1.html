@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: aquamarine;
+        text-align: center;
+        font-family: monospace;
+        font-weight: bold;
+        color: darkblue;
+        font-size: 50px;
+    }
+</style>
+
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+<script>
+
+    let valor
+    let suma = 0
+    do {
+        valor = parseInt(prompt("Introduzca un número (9999 para terminar):"))
+
+        if (valor != 9999) {
+            suma += valor
+        }
+
+    } while (valor != 9999);
+
+    document.write("La suma de los números es " + suma + "." + "<br>")
+
+</script>
+
+</html>

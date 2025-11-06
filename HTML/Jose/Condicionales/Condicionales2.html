@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let nota1, nota2, nota3
+        nota1 = parseFloat(prompt("¿Cuál es la nota de matemáticas?"))
+        nota2 = parseFloat(prompt("¿Cuál es la nota de lengua?"))
+        nota3 = parseFloat(prompt("¿Cuál es la nota de geografía"))
+        let promedio = nota1 + nota2 + nota3
+        let ntotal = promedio / 3
+        if (ntotal >= 5) {
+            document.write("Promociona.")
+        } else {
+            document.write("No promociona.")
+
+        }
+
+
+    </script>
+</body>
+
+</html>
